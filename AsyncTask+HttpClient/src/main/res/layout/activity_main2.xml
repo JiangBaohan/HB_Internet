@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.no2weekdemo01.Main2Activity">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:id="@+id/image2"/>
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="title"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/fromname2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="FROMNAME"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:id="@+id/showtime2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="SHOWTIME"
+        android:textSize="25dp"/>
+</LinearLayout>
